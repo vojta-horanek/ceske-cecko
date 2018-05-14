@@ -26,7 +26,7 @@ string convert_file_to_string(string file) {
 
 void replaceAll(string& text) {
 	vector<string> C_syntax = { "true","false","int","bool","char","if","else","return","while","printf","main","==","!=","=","0","'\0'","++","*","{","}",";","(",")","[","]",",","void","string" };
-	vector<string> CC_syntax = { "ano","ne","cisilko","pravdicka","pismenko","pokud","jinak","vrat","dokud","vytiskni","hlavni_funkce","rovna_se","nerovna_se","je","nula","nulovy_znak","plus_jedna","ukazatel","slozena_zavorka_doleva","slozena_zavorka_doprava","strednik","zavorka_doleva","zavorka_doprava","hranata_zavorka_doleva","hranata_zavorka_doprava","carka","prazdnota","text"};
+	vector<string> CC_syntax = { "ano","ne","cisilko","pravdicka","pismenko","pokud","jinak","vrat","dokud","vytiskni","hlavni_funkce","rovna_se","nerovna_se","je","nula","nulovy_znak","plus_jedna","ukazatel","slozena_zavorka_doleva","slozena_zavorka_doprava","strednik","zavorka_doleva","zavorka_doprava","hranata_zavorka_doleva","hranata_zavorka_doprava","carka","jovan","text"};
 	string definetext = "";
 	for (int i = 0; i < C_syntax.size(); i++) {
 		definetext.append("#define ");
